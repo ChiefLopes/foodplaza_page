@@ -1,64 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 * {
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .overall {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
 }
 
-.home{
-    color: #089744;
+.home {
+  color: #089744;
 }
 
 h2 span {
-    color: #3ee714;
+  color: #3ee714;
 }
 
 .navbar-right {
-    padding-top: 8px;
+  padding-top: 8px;
 }
 
 a {
-    /* display: flex; */
-    margin-left: 90px;
-    text-decoration: none;
-    color: black;
+  margin-left: 90px;
+  text-decoration: none;
+  color: black;
 }
-a:hover{
-    color: #3ee714;
+a:hover {
+  color: #3ee714;
 }
 
 .title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .top {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .top h3 {
-    font-size: 80px;
-    font-weight: 900;
+  font-size: 80px;
+  font-weight: 900;
 }
 
 .top .p {
-    font-size: 35px;
+  font-size: 35px;
 }
 
- /* button {
+/* button {
     margin-top: 20px;
     padding: 10px 50px 10px 50px;
     border-radius: 5px;
@@ -67,159 +67,179 @@ a:hover{
     background-color: transparent;
     cursor: pointer;
 } */
-.top button:hover{
-    transform: scale(1.2);
+.top button:hover {
+  transform: scale(1.2);
 }
 .green {
-    padding: 12px 50px 12px 50px;
-    background-color: #089744;
-    border: none;
-    border-radius: 5px;
-    margin-right: 100px;
-    font-weight: 400;
-    font-size: 20px;
-    color: #eeee;   
-    width: 15rem;
+  padding: 12px 50px 12px 50px;
+  background-color: #089744;
+  border: none;
+  border-radius: 5px;
+  margin-right: 100px;
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  width: 15rem;
 }
 
-.explore {
-    margin-top: 20px;
-    padding: 10px 50px 10px 50px;
-    border-radius: 5px;
-    border: 2px solid #3ee714;
-    color: #3ee714;
-    background-color: transparent;
-    cursor: pointer;
-      width: 15rem;
-      height: 3.5rem;
+/**
+width: 140px;
+height: 36px;
 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height 
+color: #FFFFFF;
+
+
+/* Inside auto layout 
+flex: none;
+order: 0;
+flex-grow: 0;*/
+
+.explore {
+  margin-top: 20px;
+  padding: 10px 50px 10px 50px;
+  border-radius: 5px;
+  border: 2px solid #3ee714;
+  color: #3ee714;
+  background-color: transparent;
+  cursor: pointer;
+  width: 15rem;
+  height: 3.5rem;
 }
 
 .burger {
-    background-image: url(./img/burger.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 500px;
-    /* border: 1px solid #3ee714; */
-    padding-left: 240px;
-    margin-top: 20px;
+  background-image: url(./img/burger.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 500px;
+  /* border: 1px solid #3ee714; */
+  padding-left: 240px;
+  margin-top: 20px;
 }
 
 .healthy p {
-    font-size: 20px
+  font-size: 20px;
 }
 
 .healthy h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .options {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .border {
-    /* border: 1px solid #3ee714; */
-    border-radius: 10px;
-    height: 350px;
-    width: 350px;
-    background-color: #d7e4d3;
-    cursor: pointer;
+  /* border: 1px solid #3ee714; */
+  border-radius: 10px;
+  height: 350px;
+  width: 350px;
+  background-color: #d7e4d3;
+  cursor: pointer;
 }
 
 .health {
-    background-image: url("./img/Group\ 78.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* border: 1px solid #3ee714; */
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+  background-image: url("./img/Group\ 78.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* border: 1px solid #3ee714; */
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
 .border h3 {
-    text-align: center;
-    font-size: 30px
+  text-align: center;
+  font-size: 30px;
 }
 .border:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .border p {
-    text-align: center;
+  text-align: center;
 }
 
 .fast {
-    background-image: url("./img/services1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+  background-image: url("./img/services1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
 .pick {
-    margin-top: 150px;
-    font-size: 35px;
+  margin-top: 150px;
+  font-size: 35px;
 }
 
 .choose {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
 }
 
 .box {
-    /* border: 1px solid #3ee714; */
-    height: 400px;
-    width: 250px;
-    border-radius: 15px;
-    background-color: rgba(177, 184, 190, 0.247);
-    cursor: pointer;
+  /* border: 1px solid #3ee714; */
+  height: 400px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: rgba(177, 184, 190, 0.247);
+  cursor: pointer;
 }
 /*  */
 .beef {
-    height: 200px;
-    width: 400px;
-    background-image: url("./img/Burger\ Traced.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
+  height: 200px;
+  width: 400px;
+  background-image: url("./img/Burger\ Traced.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
 }
-.box:hover{
-    transform: scale(1.1);
+.box:hover {
+  transform: scale(1.1);
 }
 i {
-    margin-left: 200px;
-    margin-top: 10px;
+  margin-left: 200px;
+  margin-top: 10px;
 }
 
 i:hover {
-    transform: scale(2);
-    color: red;
+  transform: scale(2);
+  color: red;
 }
 
 .box h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .box p {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .box h4 {
-    font-size: 20px;
-    font-weight: 800;
-    margin-top: 10px;
-    text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 10px;
+  text-align: center;
 }
 
+/* Get Started */
