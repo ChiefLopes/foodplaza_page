@@ -166,6 +166,7 @@ flex-grow: 0; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  font-family: 'Recoleta';
 }
 
 .border h3 {
@@ -264,7 +265,7 @@ height: 53px;
 left: 35px;
 top: 83px;
 
-font-family: 'Recoleta';
+
 font-style: normal;
 font-weight: 700;
 font-size: 39px;
