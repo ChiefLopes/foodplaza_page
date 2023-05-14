@@ -74,7 +74,7 @@ a:hover {
   padding: 12px 50px 12px 50px;
   background-color: #089744;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-right: 100px;
   font-weight: 400;
   font-family: "Poppins";
@@ -82,10 +82,17 @@ a:hover {
   line-height: 36px;
   color: #ffffff;
   width: 15rem;
+  height: 4rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
+/* Get Started */
 /**
-width: 140px;
+/* Explore Our Menu 
+
+width: 216px;
 height: 36px;
 
 font-family: 'Poppins';
@@ -93,25 +100,26 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 36px;
-/* identical to box height 
-color: #FFFFFF;
+/* identical to box height */
+
+/* dark green 
+color: #2CBF6C;
 
 
 /* Inside auto layout 
 flex: none;
 order: 0;
-flex-grow: 0;*/
-
+flex-grow: 0; */
 .explore {
   margin-top: 20px;
   padding: 10px 50px 10px 50px;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 2px solid #3ee714;
   color: #3ee714;
   background-color: transparent;
   cursor: pointer;
-  width: 15rem;
-  height: 3.5rem;
+   width: 15rem;
+  height: 4rem;
 }
 
 .burger {
@@ -137,6 +145,7 @@ flex-grow: 0;*/
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  
 }
 
 .border {
@@ -242,4 +251,34 @@ i:hover {
   text-align: center;
 }
 
-/* Get Started */
+
+
+
+
+/* Rectangle 14 *
+
+/* Health Meal 
+
+position: absolute;
+width: 217px;
+height: 53px;
+left: 35px;
+top: 83px;
+
+font-family: 'Recoleta';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 53px;
+/* identical to box height 
+text-align: center;
+
+color: #067235;
+
+*/
+
+
+
+
+
+
