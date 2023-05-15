@@ -67,7 +67,7 @@ a:hover {
 }
 
 .top {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .top h3 {
@@ -109,28 +109,9 @@ a:hover {
   flex-grow: 0;
 } 
 
-/* Get Started */
-/**
-/* Explore Our Menu 
-
-width: 216px;
-height: 36px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height */
-
-/* dark green 
-color: #2CBF6C;
-
-
-/* Inside auto layout 
-flex: none;
-order: 0;
-flex-grow: 0; */
+.layer2 {
+  margin-bottom: 120px;
+}
 .explore {
   margin-top: 20px;
   padding: 10px 50px 10px 50px;
@@ -149,7 +130,6 @@ flex-grow: 0; */
   background-repeat: no-repeat;
   width: 300px;
   height: 500px;
-  /* border: 1px solid #3ee714; */
   padding-left: 240px;
   margin-top: 20px;
 }
@@ -225,14 +205,13 @@ flex-grow: 0; */
 }
 
 .box {
-  /* border: 1px solid #3ee714; */
   height: 400px;
   width: 250px;
   border-radius: 15px;
   background-color: rgba(177, 184, 190, 0.247);
   cursor: pointer;
 }
-/*  */
+
 .beef {
   height: 200px;
   width: 400px;
