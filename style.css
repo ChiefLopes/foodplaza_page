@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap");
 
 * {
   font-family: "Poppins", sans-serif;
@@ -262,6 +262,10 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
+}
+
+.reserve {
+  font-family:  serif;
 }
 
 .box:hover {
