@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
 
 * {
   font-family: "Poppins", sans-serif;
@@ -24,7 +26,26 @@
 }
 
 h2 span {
-  color: #3ee714;
+  color: #2CBF6C;
+ font-family: 'Averia Serif Libre', cursive;
+/* 
+font-family: 'Recoleta';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 61px;
+display: flex;
+align-items: center; */
+}
+
+.header {
+font-family: 'Averia Serif Libre', cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 61px;
+display: flex;
+align-items: center;
 }
 
 .navbar-right {
@@ -71,7 +92,7 @@ a:hover {
   transform: scale(1.2);
 }
 .green {
-  padding: 12px 50px 12px 50px;
+  /* padding: 12px 50px 12px 50px; */
   background-color: #089744;
   border: none;
   border-radius: 8px;
@@ -86,7 +107,7 @@ a:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
+} 
 
 /* Get Started */
 /**
@@ -250,35 +271,4 @@ i:hover {
   margin-top: 10px;
   text-align: center;
 }
-
-
-
-
-
-/* Rectangle 14 *
-
-/* Health Meal 
-
-position: absolute;
-width: 217px;
-height: 53px;
-left: 35px;
-top: 83px;
-
-
-font-style: normal;
-font-weight: 700;
-font-size: 39px;
-line-height: 53px;
-/* identical to box height 
-text-align: center;
-
-color: #067235;
-
-*/
-
-
-
-
-
 
