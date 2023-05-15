@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-    
+
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -204,7 +204,8 @@ button {
 .choose {
   display: flex;
   justify-content: space-between;
-  margin-top: 70px;
+  margin-top: 70px; 
+  font-style: normal;
 }
 
 .box {
