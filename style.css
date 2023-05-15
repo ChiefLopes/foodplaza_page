@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap");
 
 * {
   font-family: "Poppins", sans-serif;
@@ -26,9 +26,9 @@
 }
 
 h2 span {
-  color: #2CBF6C;
- font-family: 'Averia Serif Libre', cursive;
-/* 
+  color: #2cbf6c;
+  font-family: "Averia Serif Libre", cursive;
+  /* 
 font-family: 'Recoleta';
 font-style: normal;
 font-weight: 700;
@@ -39,13 +39,13 @@ align-items: center; */
 }
 
 .header {
-font-family: 'Averia Serif Libre', cursive;
-font-style: normal;
-font-weight: 700;
-font-size: 45px;
-line-height: 61px;
-display: flex;
-align-items: center;
+  font-family: "Averia Serif Libre", cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-right {
@@ -79,7 +79,7 @@ a:hover {
   font-size: 35px;
 }
 
-/* button {
+button {
     margin-top: 20px;
     padding: 10px 50px 10px 50px;
     border-radius: 5px;
@@ -87,12 +87,12 @@ a:hover {
     color: #3ee714;
     background-color: transparent;
     cursor: pointer;
-} */
+}
 .top button:hover {
   transform: scale(1.2);
 }
 .green {
-  /* padding: 12px 50px 12px 50px; */
+  padding: 12px 50px 12px 50px;
   background-color: #089744;
   border: none;
   border-radius: 8px;
@@ -107,7 +107,7 @@ a:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
-} 
+}
 
 .layer2 {
   margin-bottom: 120px;
@@ -120,7 +120,7 @@ a:hover {
   color: #3ee714;
   background-color: transparent;
   cursor: pointer;
-   width: 15rem;
+  width: 15rem;
   height: 4rem;
 }
 
@@ -146,7 +146,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  
 }
 
 .border {
@@ -167,7 +166,6 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  
 }
 
 .border h3 {
@@ -196,6 +194,11 @@ a:hover {
 .pick {
   margin-top: 150px;
   font-size: 35px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 58px;
 }
 
 .choose {
@@ -240,7 +243,7 @@ a:hover {
   height: 200px;
   width: 500px;
   background-image: url("./img/cheeseburger-removebg-preview.png");
-  background-position:  -1rem;
+  background-position: -1rem;
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: auto;
@@ -248,17 +251,16 @@ a:hover {
   margin-top: 17px;
   font-size: 4px;
 }
-.beef3{
+.beef3 {
   height: 200px;
   width: 400px;
   background-image: url("./img/eggburger-removebg-preview.png");
-  background-position:  -3rem;
+  background-position: -3rem;
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
-  
 }
 
 .box:hover {
@@ -289,4 +291,3 @@ i:hover {
   margin-top: 10px;
   text-align: center;
 }
-
