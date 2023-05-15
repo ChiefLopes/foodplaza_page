@@ -215,13 +215,51 @@ a:hover {
 .beef {
   height: 200px;
   width: 400px;
-  background-image: url("./img/Burger\ Traced.png");
+  background-image: url(./img/beefburegr-removebg-preview.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding-left: 40px;
+}
+
+.beef1 {
+  height: 200px;
+  width: 500px;
+  background-image: url("./img/chicken-burger-removebg-preview.png");
+  /* background-position:  10px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  /* font-size: 4px; */
+}
+.beef2 {
+  height: 200px;
+  width: 500px;
+  background-image: url("./img/cheeseburger-removebg-preview.png");
+  background-position:  -1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 17px;
+  font-size: 4px;
+}
+.beef3{
+  height: 200px;
+  width: 400px;
+  background-image: url("./img/eggburger-removebg-preview.png");
+  background-position:  -3rem;
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
 }
+
 .box:hover {
   transform: scale(1.1);
 }
